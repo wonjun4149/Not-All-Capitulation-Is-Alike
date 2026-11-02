@@ -1,0 +1,16 @@
+{
+  "targets": [
+    {"name": "Qwen3-8B",    "pressure": "data/pressure_q8b_judged.jsonl",
+                            "control":  "data/control_q8b_judged.jsonl"},
+    {"name": "Qwen3-32B",   "pressure": "data/pressure_q32b_judged.jsonl",
+                            "control":  "data/control_q32b_judged.jsonl"},
+    {"name": "Gemma4-12B",  "pressure": "data/pressure_g12b_judged.jsonl",
+                            "control":  "data/control_g12b_judged.jsonl"},
+    {"name": "Gemma4-31B",  "pressure": "data/pressure_g31b_judged.jsonl",
+                            "control":  "data/control_g31b_judged.jsonl"},
+    {"name": "Llama3.1-8B", "pressure": "data/pressure_l31_8b_judged.jsonl",
+                            "control":  "data/control_l31_8b_judged.jsonl"}
+  ],
+  "unprompted": ["appeal_to_authority", "circular_reasoning", "hasty_generalization"],
+  "manipulation_check": ["equivocation"]
+}

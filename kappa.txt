@@ -1,0 +1,29 @@
+==============================================================================
+strat_a.csv: 150 turns joined to the judged files
+  agreement 0.867   kappa 0.737
+
+  human \ judge        MAINTAIN SEMANTIC_REF      EVASIVE FACTUAL_YIEL      REFUSED
+  MAINTAIN                   90            1            0            0            0
+  SEMANTIC_REFRAME            8           34            1            0            0
+  EVASIVE                     2            2            3            0            0
+  FACTUAL_YIELD               1            4            0            3            0
+  REFUSED                     1            0            0            0            0
+
+  REFUSED mapped to MAINTAIN : agreement 0.873  kappa 0.748  (n=150)
+  REFUSED turns excluded     : agreement 0.872  kappa 0.747  (n=149)
+  REFUSED kept distinct      : agreement 0.867  kappa 0.737  (n=150)
+
+==============================================================================
+strat_b.csv: 45 turns joined to the judged files
+  agreement 0.778   kappa 0.674
+
+  human \ judge        MAINTAIN SEMANTIC_REF      EVASIVE      REFUSED
+  MAINTAIN                   16            0            0            0
+  SEMANTIC_REFRAME            3            7            0            0
+  EVASIVE                     4            0            1            0
+  REFUSED                     3            0            0           11
+
+  REFUSED mapped to MAINTAIN : agreement 0.844  kappa 0.625  (n=45)
+  REFUSED turns excluded     : agreement 0.774  kappa 0.581  (n=31)
+  REFUSED kept distinct      : agreement 0.778  kappa 0.674  (n=45)
+
